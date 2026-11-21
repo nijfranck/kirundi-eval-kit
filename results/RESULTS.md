@@ -1,6 +1,6 @@
 # Kirundi results so far
 
-Runs from September to November 2026. The first 27 rows are in `models_summary_2026-11.json` with confidence intervals; the small open models below were added on 20 November 2026 on the same sentences.
+Runs from September to November 2026. 36 models in all: 26 from the earlier benchmark (full figures with confidence intervals in `models_summary_2026-11.json`) and ten small open models added on 20 November 2026 on the same sentences.
 
 ## How the numbers were produced
 
@@ -29,6 +29,39 @@ Runs from September to November 2026. The first 27 rows are in `models_summary_2
 | Gemma 4 31B | 31B | Apache 2.0 | 45.1 | 32.6 | 48.3 | 30.2 | 82% | 14.1% | 0 |
 
 For comparison, the strongest large models on the same sentences: Claude Opus 5.5 reads at 58.2 (health 49.0); GPT-6 Astra writes at 43.5 (health 39.5).
+
+## The earlier benchmark (September to October 2026)
+
+26 models, mostly large ones, on the same sentences. A dash means the model returned too few usable answers for that test. Three of these rows (the two NLLB-200 models and Gemma 4 31B) also appear in the table above. With the ten models added on 20 November, that makes 36 models in all.
+
+| Model | Kirundi→French | French→Kirundi | Health Kirundi→French | Health French→Kirundi | Kirundi vs Kinyarwanda | Kinyarwanda drift |
+| --- | --- | --- | --- | --- | --- | --- |
+| anthropic/claude-opus-5.5 | 58.2 | 41.8 | 49.0 | 37.7 | 94.0% | 0.0% |
+| anthropic/claude-fable-5.1 | 55.0 | 41.7 | 46.8 | 37.1 | 92.0% | 0.7% |
+| anthropic/claude-opus-5 | 52.5 | 40.0 | 45.7 | 35.3 | 96.0% | 0.0% |
+| openai/gpt-6-astra | 52.2 | 43.5 | 48.1 | 39.5 | 96.0% | 0.0% |
+| anthropic/claude-sonnet-5.5 | 52.1 | 37.5 | 48.4 | 34.7 | 82.0% | 2.8% |
+| google/gemini-pro-latest | 51.8 | 42.4 | 45.9 | 37.9 | 96.0% | 1.4% |
+| qwen/qwen3.8-max-0902 | 51.8 | 39.7 | 44.7 | 38.3 | 95.0% | 0.0% |
+| openai/gpt-6-sol | 51.7 | 42.4 | 50.5 | 36.8 | 98.0% | 0.7% |
+| openai/gpt-5.5 | 51.6 | 41.5 | 47.2 | 37.7 | 96.0% | 0.7% |
+| qwen/qwen3.8-2.4t-a95b | 51.6 | – | 44.7 | 38.2 | 97.5% | 8.3% |
+| google/gemini-3.8-flash | 50.9 | 40.9 | 47.8 | 35.9 | 96.0% | 0.7% |
+| openai/gpt-6-luna | 50.9 | 40.2 | 48.8 | 36.7 | 96.0% | 2.1% |
+| moonshotai/kimi-k3 | 48.5 | 36.3 | 45.5 | 35.2 | 100.0% | 7.7% |
+| deepseek/deepseek-v4.1-flash | 48.3 | 37.8 | 45.5 | 35.1 | 100.0% | 12.1% |
+| deepseek/deepseek-v4-pro-0813 | 46.9 | 37.7 | 45.2 | 32.9 | 67.5% | 3.3% |
+| nllb-200-distilled-1.3B | 46.2 | 41.1 | 37.7 | 30.6 | – | 0.0% |
+| x-ai/grok-4.7 | 46.1 | 35.8 | 44.9 | 33.5 | 96.0% | 10.6% |
+| google/gemma-4-31b-it | 45.1 | 32.6 | 48.3 | 30.2 | 82.0% | 14.1% |
+| meta-llama/llama-4-maverick | 44.0 | 26.8 | 45.1 | 29.5 | 80.0% | 31.2% |
+| nllb-200-distilled-600M | 43.0 | 39.7 | 34.2 | 30.4 | – | 0.0% |
+| z-ai/glm-5.3 | 42.9 | 29.1 | 43.3 | 33.0 | 80.0% | 32.3% |
+| nvidia/nemotron-3-ultra-550b-a55b | 42.2 | 27.5 | 44.5 | 26.4 | 62.0% | 37.3% |
+| openai/gpt-oss-120b | 42.2 | 33.5 | 43.9 | 31.5 | 80.0% | 18.3% |
+| mistralai/mistral-medium-3-5 | 37.3 | 21.8 | 41.9 | 22.3 | 60.0% | 71.8% |
+| cohere/command-a-plus | 32.3 | 18.0 | – | – | – | 8.2% |
+| mistralai/mistral-large-2512 | – | – | – | – | 55.0% | 50.0% |
 
 ## Urgency detection
 
