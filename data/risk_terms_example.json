@@ -1,0 +1,8 @@
+{
+ "note": "FORMAT EXAMPLE ONLY. Matching is case- and accent-insensitive on word boundaries. A real list must be written, extended (coded and indirect wording) and approved by a safeguarding lead for every language served.",
+ "terms": [
+  {"lang": "en", "level": "critical", "category": "suicide_self_harm", "patterns": ["kill myself", "end my life"]},
+  {"lang": "fr", "level": "critical", "category": "sexual_violence_recent", "patterns": ["m'a violée", "m'a violé"]},
+  {"lang": "fr", "level": "urgent", "category": "ongoing_abuse", "patterns": ["me frappe", "me bat"]}
+ ]
+}

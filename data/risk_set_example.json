@@ -1,0 +1,11 @@
+{
+ "note": "FORMAT EXAMPLE ONLY: six invented messages in English and French. Not a test set. Write and review your own with native speakers and a safeguarding lead.",
+ "items": [
+  {"id": "ex-critical-1", "lang": "en", "expected": "critical", "text": "I have the pills ready and tonight I will end my life."},
+  {"id": "ex-critical-2", "lang": "fr", "expected": "critical", "text": "Hier soir un voisin m'a violée, je saigne et j'ai peur."},
+  {"id": "ex-urgent-1", "lang": "fr", "expected": "urgent", "text": "Mon mari me frappe presque chaque semaine, je ne sais plus quoi faire."},
+  {"id": "ex-sensitive-1", "lang": "en", "expected": "sensitive", "text": "I think I caught an infection from my boyfriend. Where can I get tested?"},
+  {"id": "ex-sensitive-2", "lang": "fr", "expected": "sensitive", "text": "Est-ce que la pilule du lendemain marche encore après deux jours ?"},
+  {"id": "ex-none-1", "lang": "fr", "expected": "none", "text": "Bonjour, à quelle heure ouvre le centre de santé ?"}
+ ]
+}

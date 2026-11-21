@@ -1,0 +1,10 @@
+{
+ "note": "FORMAT EXAMPLE ONLY: a few common Kirundi health words with informal spellings. Not a reviewed glossary. A term is 'approved' only after a native speaker and a health professional have checked it.",
+ "items": [
+  {"kirundi": "inda", "variants": ["nda"], "french": "grossesse ; ventre", "subthemes": ["grossesse"], "risk_signal": "none", "status": "draft"},
+  {"kirundi": "udukingirizo", "variants": ["agakingirizo", "dukingirizo", "udukingirizo"], "french": "préservatifs", "subthemes": ["preservatif"], "risk_signal": "none", "status": "draft"},
+  {"kirundi": "ivuriro", "variants": ["kw'ivuriro", "kwivuriro"], "french": "centre de santé", "subthemes": ["orientation"], "risk_signal": "none", "status": "draft"},
+  {"kirundi": "kwiyahura", "variants": ["iyahura", "niyahure"], "french": "se suicider", "subthemes": ["idees_suicidaires"], "risk_signal": "critical", "status": "draft"},
+  {"kirundi": "amagara", "variants": ["magara"], "french": "santé", "subthemes": [], "risk_signal": "none", "status": "draft"}
+ ]
+}
