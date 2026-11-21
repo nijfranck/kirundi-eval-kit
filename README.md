@@ -1,6 +1,6 @@
 # Kirundi evaluation kit
 
-Tools to measure how well language models handle Kirundi, and to prepare Kirundi SMS text for them. Built for Turikumwe, the AI layer of a listening and referral line in Burundi where young people ask about sexual and reproductive health by SMS and WhatsApp, and where a human moderator approves every reply.
+Tools to measure how well language models handle Kirundi, and to prepare Kirundi SMS text for them.
 
 The benchmark is not tied to Kirundi: the language is a parameter, so the same commands run for any of the 200 languages in FLORES-200.
 
