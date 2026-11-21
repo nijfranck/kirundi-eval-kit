@@ -4,7 +4,7 @@ Tools to measure how well language models handle Kirundi, and to prepare Kirundi
 
 The benchmark is not tied to Kirundi: the language is a parameter, so the same commands run for any of the 200 languages in FLORES-200.
 
-Status: first public release, November 2026. The tools work and are tested; the results are early and small in scale (see the limits below). The code belongs to AJEBUDI (Yaga Burundi) and was written with the help of an AI coding assistant; every score comes from a real run.
+Status: first public release, November 2026. The tools work and are tested; the results are early and small in scale (see the limits below). The code belongs to AJEBUDI (Yaga Burundi); every score comes from a real run.
 
 ## What is here
 
